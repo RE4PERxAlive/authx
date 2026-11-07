@@ -11,6 +11,7 @@ pages_build_output_dir = "./"
 #   Workers & Pages -> KV -> Create namespace
 # Then paste the namespace ID below (or bind it in the Pages project
 # Settings -> Functions -> KV namespace bindings).
-[[kv_namespaces]]
-binding = "UUID_DB"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+"kv_namespaces": [{
+                    "binding": "KV_BINDING",
+                    "id": "cfa24829c9bf41d6825ece8506b32066"
+                 }]
