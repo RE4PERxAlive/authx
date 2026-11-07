@@ -3,5 +3,5 @@ compatibility_date = "2024-11-01"
 pages_build_output_dir = "./"
 
 [[kv_namespaces]]
-binding = "UUID_DB"
+binding = "KV"
 id = "cfa24829c9bf41d6825ece8506b32066"
