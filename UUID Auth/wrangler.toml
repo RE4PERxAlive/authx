@@ -1,17 +1,7 @@
-# ================================================================
-# AzureGuard Auth - Cloudflare Pages configuration
-# Free plan: Pages (static + Functions) + Workers KV storage.
-# ================================================================
 name = "azureguard-auth"
 compatibility_date = "2024-11-01"
 pages_build_output_dir = "./"
 
-# KV namespace where all registered UUIDs are stored.
-# Create one in the Cloudflare dashboard:
-#   Workers & Pages -> KV -> Create namespace
-# Then paste the namespace ID below (or bind it in the Pages project
-# Settings -> Functions -> KV namespace bindings).
-"kv_namespaces": [{
-                    "binding": "KV_BINDING",
-                    "id": "cfa24829c9bf41d6825ece8506b32066"
-                 }]
+[[kv_namespaces]]
+binding = "UUID_DB"
+id = "cfa24829c9bf41d6825ece8506b32066"
