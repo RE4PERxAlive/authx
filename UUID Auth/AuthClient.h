@@ -13,7 +13,7 @@ namespace SimpleAuth
     // Replace api_host with YOUR Cloudflare Pages project URL, e.g.
     //   "azureguard-auth.pages.dev"
     // =========================================================================
-    static const char* API_HOST = "azureguard-auth.pages.dev";
+    static const char* API_HOST = "authx.abirk0052.workers.dev";
     static const INTERNET_PORT API_PORT = INTERNET_DEFAULT_HTTPS_PORT;
     static const char* API_PATH = "/verify";
 

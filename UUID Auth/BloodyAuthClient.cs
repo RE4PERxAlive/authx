@@ -22,7 +22,7 @@ namespace BloodyAuthSystem
         // -------------------------------------------------------------------------
         public static string OwnerId { get; set; } = "e4b3c2a1-8765-4321-90ab-cdef12345678";
         public static string SecretKey { get; set; } = "bloody_sec_9f8e7d6c5b4a39281706f5e4d3c2b1a";
-        public static string ApiUrl { get; set; } = "https://azureguard-auth.pages.dev/verify";
+        public static string ApiUrl { get; set; } = "https://authx.abirk0052.workers.dev//verify";
 
         private static readonly HttpClient client = new HttpClient();
 

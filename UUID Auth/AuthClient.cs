@@ -14,7 +14,7 @@ namespace SimpleAuth
         // Replace ApiUrl with YOUR Cloudflare Pages project URL, e.g.
         //   "https://azureguard-auth.pages.dev/verify"
         // =========================================================================
-        public static string ApiUrl    = "https://azureguard-auth.pages.dev/verify";
+        public static string ApiUrl    = "https://authx.abirk0052.workers.dev/verify";
         public static string OwnerId   = "e4b3c2a1-8765-4321-90ab-cdef12345678";
         public static string SecretKey = "bloody_sec_9f8e7d6c5b4a39281706f5e4d3c2b1a";
 
